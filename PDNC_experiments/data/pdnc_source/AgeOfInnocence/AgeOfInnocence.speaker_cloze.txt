@@ -1,0 +1,499 @@
+Q8-1	Explicit	Lawrence Lefferts	He's an awful brute, isn't he?" continued the young enquirer, a candid Thorley, who was evidently preparing to enter the lists as the lady's champion.
+
+"The very worst; I knew him at Nice," said [MASK] with authority.  "A half-paralysed white sneering fellow--rather handsome head, but eyes with a lot of lashes.  Well, I'll tell you the sort: when he wasn't with women he was collecting china.  Paying any price for both, I understand."
+
+There was a general laugh, and the young champion said:  "Well, then----?"
+
+"Well, then; she bolted with his secretary."
+
+"Oh, I see."  The champion's face fell.
+
+"It didn't last long, though: I heard of her a few months later living alone in Venice.
+Q24-0	Explicit	Archer	Now we shan't have to talk," he said, smiling into her candid eyes, as they floated away on the soft waves of the Blue Danube.
+
+She made no answer.  Her lips trembled into a smile, but the eyes remained distant and serious, as if bent on some ineffable vision. "Dear," [MASK] whispered, pressing her to him: it was borne in on him that the first hours of being engaged, even if spent in a ball-room, had in them something grave and sacramental.  What a new life it was going to be, with this whiteness, radiance, goodness at one's side!
+Q138-0	Anaphoric	she	He's very fond of gambling--he used to come to the house a great deal."  She said it in the simplest manner, as if she had said:  "He's fond of wild-flowers"; and after a moment [MASK] added candidly:  "I think he's the dullest man I ever met."
+
+This pleased her companion so much that he forgot the slight shock her previous remark had caused him.  It was undeniably exciting to meet a lady who found the van der Luydens' Duke dull, and dared to utter the opinion.  He longed to question her, to hear more about the life of which her careless words had given him so illuminating a glimpse; but he feared to touch on distressing memories, and before he could think of anything to say she had strayed back to her original subject.
+Q147-1	Anaphoric	she	Have you forgotten," he asked with a smile, "that in our country we don't allow our marriages to be arranged for us?"
+
+A dusky blush rose to her cheek, and he instantly regretted his words.
+
+"Yes," [MASK] answered, "I'd forgotten.  You must forgive me if I sometimes make these mistakes.  I don't always remember that everything here is good that was--that was bad where I've come from."  She looked down at her Viennese fan of eagle feathers, and he saw that her lips trembled.
+
+"I'm so sorry," he said impulsively; "but you ARE among friends here, you know."
+
+"Yes--I know.  Wherever I go I have that feeling.
+Q174-0	Anaphoric	she	But I suppose I've lived too independently; at any rate, I want to do what you all do--I want to feel cared for and safe."
+
+He was touched, as he had been the evening before when she spoke of her need of guidance.
+
+"That's what your friends want you to feel.  New York's an awfully safe place," he added with a flash of sarcasm.
+
+"Yes, isn't it?  One feels that," [MASK] cried, missing the mockery. "Being here is like--like--being taken on a holiday when one has been a good little girl and done all one's lessons."
+
+The analogy was well meant, but did not altogether please him.
+Q213-0	Anaphoric	the wooer	We might be much better off.  We might be altogether together--we might travel."
+
+Her face lit up.  "That would be lovely," she owned: she would love to travel.  But her mother would not understand their wanting to do things so differently.
+
+"As if the mere 'differently' didn't account for it!" [MASK] insisted.
+
+"Newland!  You're so original!" she exulted.
+
+His heart sank, for he saw that he was saying all the things that young men in the same situation were expected to say, and that she was making the answers that instinct and tradition taught her to make--even to the point of calling him original.
+Q214-0	Anaphoric	she	Her face lit up.  "That would be lovely," she owned: she would love to travel.  But her mother would not understand their wanting to do things so differently.
+
+"As if the mere 'differently' didn't account for it!" the wooer insisted.
+
+"Newland!  You're so original!" [MASK] exulted.
+
+His heart sank, for he saw that he was saying all the things that young men in the same situation were expected to say, and that she was making the answers that instinct and tradition taught her to make--even to the point of calling him original.
+Q222-0	Anaphoric	she	We can't behave like people in novels, though, can we?"
+
+"Why not--why not--why not?"
+
+She looked a little bored by his insistence.  She knew very well that they couldn't, but it was troublesome to have to produce a reason. "I'm not clever enough to argue with you.  But that kind of thing is rather--vulgar, isn't it?" [MASK] suggested, relieved to have hit on a word that would assuredly extinguish the whole subject.
+
+"Are you so much afraid, then, of being vulgar?"
+
+She was evidently staggered by this.  "Of course I should hate it--so would you," she rejoined, a trifle irritably.
+Q226-0	Anaphoric	he	He had failed to stop at his club on the way up from the office where he exercised the profession of the law in the leisurely manner common to well-to-do New Yorkers of his class.  He was out of spirits and slightly out of temper, and a haunting horror of doing the same thing every day at the same hour besieged his brain.
+
+"Sameness--sameness!" [MASK] muttered, the word running through his head like a persecuting tune as he saw the familiar tall-hatted figures lounging behind the plate-glass; and because he usually dropped in at the club at that hour he had gone home instead.  He knew not only what they were likely to be talking about, but the part each one would take in the discussion.
+Q301-0	Anaphoric	she	He had even yielded to her wish for a long engagement, since she had found the one disarming answer to his plea for haste.
+
+"You know, when it comes to the point, your parents have always let you have your way ever since you were a little girl," he argued; and [MASK] had answered, with her clearest look:  "Yes; and that's what makes it so hard to refuse the very last thing they'll ever ask of me as a little girl."
+
+That was the old New York note; that was the kind of answer he would like always to be sure of his wife's making.  If one had habitually breathed the New York air there were times when anything less crystalline seemed stifling.
+
+
+The papers he had retired to read did not tell him much in fact; but they plunged him into an atmosphere in which he choked and spluttered.
+Q390-0	Anaphoric	he	Think of the newspapers--their vileness! It's all stupid and narrow and unjust--but one can't make over society."
+
+"No," she acquiesced; and her tone was so faint and desolate that he felt a sudden remorse for his own hard thoughts.
+
+"The individual, in such cases, is nearly always sacrificed to what is supposed to be the collective interest: people cling to any convention that keeps the family together--protects the children, if there are any," [MASK] rambled on, pouring out all the stock phrases that rose to his lips in his intense desire to cover over the ugly reality which her silence seemed to have laid bare.  Since she would not or could not say the one word that would have cleared the air, his wish was not to let her feel that he was trying to probe into her secret.
+Q460-0	Anaphoric	he	They sat down on a bench under the orange-trees and he put his arm about her and kissed her.  It was like drinking at a cold spring with the sun on it; but his pressure may have been more vehement than he had intended, for the blood rose to her face and she drew back as if he had startled her.
+
+"What is it?" [MASK] asked, smiling; and she looked at him with surprise, and answered:  "Nothing."
+
+A slight embarrassment fell on them, and her hand slipped out of his. It was the only time that he had kissed her on the lips except for their fugitive embrace in the Beaufort conservatory, and he saw that she was disturbed, and shaken out of her cool boyish composure.
+Q462-0	Anaphoric	he	A slight embarrassment fell on them, and her hand slipped out of his. It was the only time that he had kissed her on the lips except for their fugitive embrace in the Beaufort conservatory, and he saw that she was disturbed, and shaken out of her cool boyish composure.
+
+"Tell me what you do all day," [MASK] said, crossing his arms under his tilted-back head, and pushing his hat forward to screen the sun-dazzle. To let her talk about familiar and simple things was the easiest way of carrying on his own independent train of thought; and he sat listening to her simple chronicle of swimming, sailing and riding, varied by an occasional dance at the primitive inn when a man-of-war came in.
+Q474-0	Anaphoric	Her	It was like hearing him read aloud out of his poetry books the beautiful things that could not possibly happen in real life.
+
+"Oh, do go on, Newland; I do love your descriptions."
+
+"But why should they be only descriptions?  Why shouldn't we make them real?"
+
+"We shall, dearest, of course; next year."  [MASK] voice lingered over it.
+
+"Don't you want them to be real sooner?  Can't I persuade you to break away now?"
+
+She bowed her head, vanishing from him under her conniving hat-brim.
+
+"Why should we dream away another year?
+Q479-0	Anaphoric	she	My God--perhaps--I don't know," he broke out angrily.
+
+May Welland rose also; as they faced each other she seemed to grow in womanly stature and dignity.  Both were silent for a moment, as if dismayed by the unforeseen trend of their words: then [MASK] said in a low voice: "If that is it--is there some one else?"
+
+"Some one else--between you and me?"  He echoed her words slowly, as though they were only half-intelligible and he wanted time to repeat the question to himself.  She seemed to catch the uncertainty of his voice, for she went on in a deepening tone:  "Let us talk frankly, Newland.
+Q486-0	Anaphoric	she	Mistakes are always easy to make; but if I had made one of the kind you suggest, is it likely that I should be imploring you to hasten our marriage?"
+
+She looked downward too, disturbing the pattern with the point of her sunshade while she struggled for expression.  "Yes," [MASK] said at length.  "You might want--once for all--to settle the question: it's one way."
+
+Her quiet lucidity startled him, but did not mislead him into thinking her insensible.  Under her hat-brim he saw the pallor of her profile, and a slight tremor of the nostril above her resolutely steadied lips.
+Q487-0	Anaphoric	he	You might want--once for all--to settle the question: it's one way."
+
+Her quiet lucidity startled him, but did not mislead him into thinking her insensible.  Under her hat-brim he saw the pallor of her profile, and a slight tremor of the nostril above her resolutely steadied lips.
+
+"Well--?" [MASK] questioned, sitting down on the bench, and looking up at her with a frown that he tried to make playful.
+
+She dropped back into her seat and went on:  "You mustn't think that a girl knows as little as her parents imagine.
+Q493-0	Anaphoric	she	I couldn't have my happiness made out of a wrong--an unfairness--to somebody else.  And I want to believe that it would be the same with you.  What sort of a life could we build on such foundations?"
+
+Her face had taken on a look of such tragic courage that he felt like bowing himself down at her feet.  "I've wanted to say this for a long time," [MASK] went on.  "I've wanted to tell you that, when two people really love each other, I understand that there may be situations which make it right that they should--should go against public opinion.  And if you feel yourself in any way pledged ... pledged to the person we've spoken of ...  and if there is any way ... any way in which you can fulfill your pledge ... even by her getting a divorce ...
+Q522-0	Anaphoric	he	He muttered something about leaving unexpectedly, in a great hurry, and having intended to write to her from St. Augustine.
+
+"And of course once you were there you never thought of me again!"  She continued to beam on him with a gaiety that might have been a studied assumption of indifference.
+
+"If she still needs me, she's determined not to let me see it," [MASK] thought, stung by her manner.  He wanted to thank her for having been to see his mother, but under the ancestress's malicious eye he felt himself tongue-tied and constrained.
+
+"Look at him--in such hot haste to get married that he took French leave and rushed down to implore the silly girl on his knees!
+Q565-0	Explicit	Mr. Archer	From the moment I heard of the firm stand you had taken, and of your influence over her, I hoped it might be possible to count on your support--to convince you ..."
+
+"That she ought to go back?  I would rather see her dead!" cried the young man violently.
+
+"Ah," the Marchioness murmured, without visible resentment.  For a while she sat in her arm-chair, opening and shutting the absurd ivory fan between her mittened fingers; but suddenly she lifted her head and listened.
+
+"Here she comes," she said in a rapid whisper; and then, pointing to the bouquet on the sofa:  "Am I to understand that you prefer THAT, [MASK]?
+Q626-0	Anaphoric	she	She looked at him with unfeigned astonishment.  "And you say that--when it's you who've made it impossible?"
+
+He stared at her, groping in a blackness through which a single arrow of light tore its blinding way.
+
+"I'VE made it impossible--?"
+
+"You, you, YOU!" [MASK] cried, her lip trembling like a child's on the verge of tears.  "Isn't it you who made me give up divorcing--give it up because you showed me how selfish and wicked it was, how one must sacrifice one's self to preserve the dignity of marriage ... and to spare one's family the publicity, the scandal?
+Q651-0	Anaphoric	she	He sat bowed over, his head between his hands, staring at the hearthrug, and at the tip of the satin shoe that showed under her dress.  Suddenly he knelt down and kissed the shoe.
+
+She bent over him, laying her hands on his shoulders, and looking at him with eyes so deep that he remained motionless under her gaze.
+
+"Ah, don't let us undo what you've done!" [MASK] cried.  "I can't go back now to that other way of thinking.  I can't love you unless I give you up."
+
+His arms were yearning up to her; but she drew away, and they remained facing each other, divided by the distance that her words had created.
+Q663-0	Anaphoric	he	If he could have got her in his arms again he might have swept away her arguments; but she still held him at a distance by something inscrutably aloof in her look and attitude, and by his own awed sense of her sincerity.  At length [MASK] began to plead again.
+
+"If we do this now it will be worse afterward--worse for every one--"
+
+"No--no--no!" she almost screamed, as if he frightened her.
+
+At that moment the bell sent a long tinkle through the house.  They had heard no carriage stopping at the door, and they stood motionless, looking at each other with startled eyes.
+Q679-0	Explicit	May	My God," he thought, "HAVE I got the ring?"--and once more he went through the bridegroom's convulsive gesture.
+
+Then, in a moment, [MASK] was beside him, such radiance streaming from her that it sent a faint warmth through his numbness, and he straightened himself and smiled into her eyes.
+
+"Dearly beloved, we are gathered together here," the Rector began ...
+
+The ring was on her hand, the Bishop's benediction had been given, the bridesmaids were a-poise to resume their place in the procession, and the organ was showing preliminary symptoms of breaking out into the Mendelssohn March, without which no newly-wedded couple had ever emerged upon New York.
+Q782-0	Anaphoric	he	There he wrote a few lines, and ordered a messenger to take a cab to the Parker House and wait for the answer.  He then sat down behind another newspaper and tried to calculate how long it would take a cab to get to the Parker House.
+
+"The lady was out, sir," he suddenly heard a waiter's voice at his elbow; and [MASK] stammered:  "Out?--" as if it were a word in a strange language.
+
+He got up and went into the hall.  It must be a mistake: she could not be out at that hour.  He flushed with anger at his own stupidity: why had he not sent the note as soon as he arrived?
+Q787-0	Anaphoric	he	The words hardly reached him: he was aware only of her voice, and of the startling fact that not an echo of it had remained in his memory.  He had not even remembered that it was low-pitched, with a faint roughness on the consonants.
+
+"You do your hair differently," [MASK] said, his heart beating as if he had uttered something irrevocable.
+
+"Differently?  No--it's only that I do it as best I can when I'm without Nastasia."
+
+"Nastasia; but isn't she with you?"
+
+"No; I'm alone.
+Q801-0	Anaphoric	she	She had furled her parasol and sat absently drawing patterns on the gravel.  Presently he came back and stood before her.
+
+"Some one--has come here to meet you?"
+
+"Yes."
+
+"With this offer?"
+
+She nodded.
+
+"And you refused--because of the conditions?"
+
+"I refused," [MASK] said after a moment.
+
+He sat down by her again.  "What were the conditions?"
+
+"Oh, they were not onerous: just to sit at the head of his table now and then."
+
+There was another interval of silence.
+Q825-1	Anaphoric	he	I won't open my mouth unless you tell me to.  What harm can it do to anybody?  All I want is to listen to you," he stammered.
+
+She drew out a little gold-faced watch on an enamelled chain.  "Oh, don't calculate," [MASK] broke out; "give me the day!  I want to get you away from that man.  At what time was he coming?"
+
+Her colour rose again.  "At eleven."
+
+"Then you must come at once."
+
+"You needn't be afraid--if I don't come."
+
+"Nor you either--if you do.  I swear I only want to hear about you, to know what you've been doing.
+Q837-0	Anaphoric	he	So I went down to the beach."
+
+"To get away from me as far as you could?"
+
+She repeated in a low voice:  "To get away from you as far as I could."
+
+He laughed out again, this time in boyish satisfaction.  "Well, you see it's no use.  I may as well tell you," [MASK] added, "that the business I came here for was just to find you.  But, look here, we must start or we shall miss our boat."
+
+"Our boat?"  She frowned perplexedly, and then smiled.  "Oh, but I must go back to the hotel first:  I must leave a note--"
+
+"As many notes as you please.
+Q866-0	Anaphoric	he	He stood in the window, drumming against the raised sash, and feeling in every fibre the wistful tenderness with which she had spoken her cousin's name.
+
+"For that's the thing we've always got to think of--haven't we--by your own showing?" she insisted.
+
+"My own showing?" [MASK] echoed, his blank eyes still on the sea.
+
+"Or if not," she continued, pursuing her own thought with a painful application, "if it's not worth while to have given up, to have missed things, so that others may be saved from disillusionment and misery--then everything I came home for, everything that made my other life seem by contrast so bare and so poor because no one there took account of them--all these things are a sham or a dream--"
+
+He turned around without moving from his place.
+Q867-0	Anaphoric	she	He stood in the window, drumming against the raised sash, and feeling in every fibre the wistful tenderness with which she had spoken her cousin's name.
+
+"For that's the thing we've always got to think of--haven't we--by your own showing?" she insisted.
+
+"My own showing?" he echoed, his blank eyes still on the sea.
+
+"Or if not," [MASK] continued, pursuing her own thought with a painful application, "if it's not worth while to have given up, to have missed things, so that others may be saved from disillusionment and misery--then everything I came home for, everything that made my other life seem by contrast so bare and so poor because no one there took account of them--all these things are a sham or a dream--"
+
+He turned around without moving from his place.
+Q870-0	Anaphoric	he	Or if not," she continued, pursuing her own thought with a painful application, "if it's not worth while to have given up, to have missed things, so that others may be saved from disillusionment and misery--then everything I came home for, everything that made my other life seem by contrast so bare and so poor because no one there took account of them--all these things are a sham or a dream--"
+
+He turned around without moving from his place.  "And in that case there's no reason on earth why you shouldn't go back?" he concluded for her.
+
+Her eyes were clinging to him desperately.  "Oh, IS there no reason?"
+
+"Not if you staked your all on the success of my marriage.  My marriage," [MASK] said savagely, "isn't going to be a sight to keep you here."  She made no answer, and he went on:  "What's the use?  You gave me my first glimpse of a real life, and at the same moment you asked me to go on with a sham one.
+Q871-0	Anaphoric	he	Oh, IS there no reason?"
+
+"Not if you staked your all on the success of my marriage.  My marriage," he said savagely, "isn't going to be a sight to keep you here."  She made no answer, and [MASK] went on:  "What's the use?  You gave me my first glimpse of a real life, and at the same moment you asked me to go on with a sham one.  It's beyond human enduring--that's all."
+
+"Oh, don't say that; when I'm enduring it!" she burst out, her eyes filling.
+
+Her arms had dropped along the table, and she sat with her face abandoned to his gaze as if in the recklessness of a desperate peril.
+Q874-0	Anaphoric	he	His one terror was to do anything which might efface the sound and impression of her words; his one thought, that he should never again feel quite alone.
+
+But after a moment the sense of waste and ruin overcame him.  There they were, close together and safe and shut in; yet so chained to their separate destinies that they might as well have been half the world apart.
+
+"What's the use--when you will go back?" [MASK] broke out, a great hopeless HOW ON EARTH CAN I KEEP YOU?  crying out to her beneath his words.
+
+She sat motionless, with lowered lids.  "Oh--I shan't go yet!"
+
+"Not yet?  Some time, then?
+Q883-0	Anaphoric	she	They may have stood in that way for a long time, or only for a few moments; but it was long enough for her silence to communicate all she had to say, and for him to feel that only one thing mattered.  He must do nothing to make this meeting their last; he must leave their future in her care, asking only that she should keep fast hold of it.
+
+"Don't--don't be unhappy," [MASK] said, with a break in her voice, as she drew her hands away; and he answered:  "You won't go back--you won't go back?" as if it were the one possibility he could not bear.
+
+"I won't go back," she said; and turning away she opened the door and led the way into the public dining-room.
+Q884-0	Anaphoric	he	He must do nothing to make this meeting their last; he must leave their future in her care, asking only that she should keep fast hold of it.
+
+"Don't--don't be unhappy," she said, with a break in her voice, as she drew her hands away; and [MASK] answered:  "You won't go back--you won't go back?" as if it were the one possibility he could not bear.
+
+"I won't go back," she said; and turning away she opened the door and led the way into the public dining-room.
+
+The strident school-teachers were gathering up their possessions preparatory to a straggling flight to the wharf; across the beach lay the white steam-boat at the pier; and over the sunlit waters Boston loomed in a line of haze.
+Q991-0	Anaphoric	he	She bent over to lower the wick, and as the light struck up on her white shoulders and the clear curves of her face he thought: "How young she is!  For what endless years this life will have to go on!"
+
+He felt, with a kind of horror, his own strong youth and the bounding blood in his veins.  "Look here," [MASK] said suddenly, "I may have to go to Washington for a few days--soon; next week perhaps."
+
+Her hand remained on the key of the lamp as she turned to him slowly. The heat from its flame had brought back a glow to her face, but it paled as she looked up.
+Q1049-0	Anaphoric	he	Her hand remained in his, and as the carriage lurched across the gang-plank onto the ferry he bent over, unbuttoned her tight brown glove, and kissed her palm as if he had kissed a relic.  She disengaged herself with a faint smile, and [MASK] said: "You didn't expect me today?"
+
+"Oh, no."
+
+"I meant to go to Washington to see you.  I'd made all my arrangements--I very nearly crossed you in the train."
+
+"Oh--" she exclaimed, as if terrified by the narrowness of their escape.
+Q1052-0	Anaphoric	she	She disengaged herself with a faint smile, and he said: "You didn't expect me today?"
+
+"Oh, no."
+
+"I meant to go to Washington to see you.  I'd made all my arrangements--I very nearly crossed you in the train."
+
+"Oh--" [MASK] exclaimed, as if terrified by the narrowness of their escape.
+
+"Do you know--I hardly remembered you?"
+
+"Hardly remembered me?"
+
+"I mean: how shall I explain?  I--it's always so.  EACH TIME YOU HAPPEN TO ME
+Q1083-0	Anaphoric	she	But then you come; and you're so much more than I remembered, and what I want of you is so much more than an hour or two every now and then, with wastes of thirsty waiting between, that I can sit perfectly still beside you, like this, with that other vision in my mind, just quietly trusting to it to come true."
+
+For a moment she made no reply; then [MASK] asked, hardly above a whisper: "What do you mean by trusting to it to come true?"
+
+"Why--you know it will, don't you?"
+
+"Your vision of you and me together?"  She burst into a sudden hard laugh.  "You choose your place well to put it to me!"
+
+"Do you mean because we're in my wife's brougham?
+Q1102-0	Anaphoric	he	No: I shall get out here," he stammered, opening the door and jumping to the pavement.  By the light of a street-lamp he saw her startled face, and the instinctive motion she made to detain him.  He closed the door, and leaned for a moment in the window.
+
+"You're right: I ought not to have come today," [MASK] said, lowering his voice so that the coachman should not hear.  She bent forward, and seemed about to speak; but he had already called out the order to drive on, and the carriage rolled away while he stood on the corner.  The snow was over, and a tingling wind had sprung up, that lashed his face as he stood gazing.
+Q1134-0	Anaphoric	he	This was her answer to his final appeal of the other day: if she would not take the extreme step he had urged, she had at last yielded to half-measures.  He sank back into the thought with the involuntary relief of a man who has been ready to risk everything, and suddenly tastes the dangerous sweetness of security.
+
+"She couldn't have gone back--it was impossible!" [MASK] exclaimed.
+
+"Ah, my dear, I always knew you were on her side; and that's why I sent for you today, and why I said to your pretty wife, when she proposed to come with you: 'No, my dear, I'm pining to see Newland, and I don't want anybody to share our transports.'
+Q1137-0	Anaphoric	he	The family don't want her here, and they'll say it's because I've been ill, because I'm a weak old woman, that she's persuaded me.  I'm not well enough yet to fight them one by one, and you've got to do it for me."
+
+"I?" [MASK] stammered.
+
+"You.  Why not?" she jerked back at him, her round eyes suddenly as sharp as pen-knives.  Her hand fluttered from its chair-arm and lit on his with a clutch of little pale nails like bird-claws.
+Q1163-0	Anaphoric	he	Tomorrow I must see you--somewhere where we can be alone," he said, in a voice that sounded almost angry to his own ears.
+
+She wavered, and moved toward the carriage.
+
+"But I shall be at Granny's--for the present that is," she added, as if conscious that her change of plans required some explanation.
+
+"Somewhere where we can be alone," [MASK] insisted.
+
+She gave a faint laugh that grated on him.
+
+"In New York?  But there are no churches ... no monuments."
+
+"There's the Art Museum--in the Park," he explained, as she looked puzzled.  "At half-past two.
+Q1165-0	Anaphoric	he	But I shall be at Granny's--for the present that is," she added, as if conscious that her change of plans required some explanation.
+
+"Somewhere where we can be alone," he insisted.
+
+She gave a faint laugh that grated on him.
+
+"In New York?  But there are no churches ... no monuments."
+
+"There's the Art Museum--in the Park," [MASK] explained, as she looked puzzled.  "At half-past two.  I shall be at the door ..."
+
+She turned away without answering and got quickly into the carriage. As it drove off she leaned forward, and he thought she waved her hand in the obscurity.
+Q1170-0	Anaphoric	she	His mind, as always when they first met, was wholly absorbed in the delicious details that made her herself and no other.  Presently he rose and approached the case before which she stood.  Its glass shelves were crowded with small broken objects--hardly recognisable domestic utensils, ornaments and personal trifles--made of glass, of clay, of discoloured bronze and other time-blurred substances.
+
+"It seems cruel," [MASK] said, "that after a while nothing matters ... any more than these little things, that used to be necessary and important to forgotten people, and now have to be guessed at under a magnifying glass and labelled:  'Use unknown.'"
+
+"Yes; but meanwhile--"
+
+"Ah, meanwhile--"
+
+As she stood there, in her long sealskin coat, her hands thrust in a small round muff, her veil drawn down like a transparent mask to the tip of her nose, and the bunch of violets he had brought her stirring with her quickly-taken breath, it seemed incredible that this pure harmony of line and colour should ever suffer the stupid law of change.
+Q1175-0	Anaphoric	he	He sat down beside her and waited; but suddenly he heard a step echoing far off down the empty rooms, and felt the pressure of the minutes.
+
+"What is it you wanted to tell me?" she asked, as if she had received the same warning.
+
+"What I wanted to tell you?" [MASK] rejoined.  "Why, that I believe you came to New York because you were afraid."
+
+"Afraid?"
+
+"Of my coming to Washington."
+
+She looked down at her muff, and he saw her hands stir in it uneasily.
+Q1179-0	Anaphoric	she	Why, that I believe you came to New York because you were afraid."
+
+"Afraid?"
+
+"Of my coming to Washington."
+
+She looked down at her muff, and he saw her hands stir in it uneasily.
+
+"Well--?"
+
+"Well--yes," [MASK] said.
+
+"You WERE afraid?  You knew--?"
+
+"Yes: I knew ..."
+
+"Well, then?" he insisted.
+
+"Well, then: this is better, isn't it?" she returned with a long questioning sigh.
+Q1183-0	Anaphoric	she	She looked down at her muff, and he saw her hands stir in it uneasily.
+
+"Well--?"
+
+"Well--yes," she said.
+
+"You WERE afraid?  You knew--?"
+
+"Yes: I knew ..."
+
+"Well, then?" he insisted.
+
+"Well, then: this is better, isn't it?" [MASK] returned with a long questioning sigh.
+
+"Better--?"
+
+"We shall hurt others less.  Isn't it, after all, what you always wanted?"
+
+"To have you here, you mean--in reach and yet out of reach?
+Q1197-0	Anaphoric	she	she protested.
+
+"What others?  I don't profess to be different from my kind.  I'm consumed by the same wants and the same longings."
+
+She glanced at him with a kind of terror, and he saw a faint colour steal into her cheeks.
+
+"Shall I--once come to you; and then go home?" [MASK] suddenly hazarded in a low clear voice.
+
+The blood rushed to the young man's forehead.  "Dearest!" he said, without moving.  It seemed as if he held his heart in his hands, like a full cup that the least motion might overbrim.
+Q1206-1	Anaphoric	he	If I were to let her come," he said to himself, "I should have to let her go again."  And that was not to be imagined.
+
+But he saw the shadow of the lashes on her wet cheek, and wavered.
+
+"After all," [MASK] began again, "we have lives of our own....  There's no use attempting the impossible.  You're so unprejudiced about some things, so used, as you say, to looking at the Gorgon, that I don't know why you're afraid to face our case, and see it as it really is--unless you think the sacrifice is not worth making."
+
+She stood up also, her lips tightening under a rapid frown.
+
+"Call it that, then--I must go," she said, drawing her little watch from her bosom.
+
+She turned away, and he followed and caught her by the wrist.
+Q1207-0	Anaphoric	she	You're so unprejudiced about some things, so used, as you say, to looking at the Gorgon, that I don't know why you're afraid to face our case, and see it as it really is--unless you think the sacrifice is not worth making."
+
+She stood up also, her lips tightening under a rapid frown.
+
+"Call it that, then--I must go," [MASK] said, drawing her little watch from her bosom.
+
+She turned away, and he followed and caught her by the wrist.  "Well, then: come to me once," he said, his head turning suddenly at the thought of losing her; and for a second or two they looked at each other almost like enemies.
+Q1249-0	Anaphoric	he	No--it's not that: do you mind if I open the window?" he returned confusedly, letting down the pane on his side.  He sat staring out into the street, feeling his wife beside him as a silent watchful interrogation, and keeping his eyes steadily fixed on the passing houses.  At their door she caught her skirt in the step of the carriage, and fell against him.
+
+"Did you hurt yourself?" [MASK] asked, steadying her with his arm.
+
+"No; but my poor dress--see how I've torn it!" she exclaimed.  She bent to gather up a mud-stained breadth, and followed him up the steps into the hall.
+Q1253-0	Anaphoric	she	No; my head is not as bad as that."  He paused.  "And there's something I want to say; something important--that I must tell you at once."
+
+She had dropped into an armchair, and raised her head as he spoke. "Yes, dear?" [MASK] rejoined, so gently that he wondered at the lack of wonder with which she received this preamble.
+
+"May--" he began, standing a few feet from her chair, and looking over at her as if the slight distance between them were an unbridgeable abyss.
+Q1305-0	Anaphoric	he	he asked in a voice that surprised him by its naturalness; and she answered that, on the contrary, she had seldom travelled with fewer discomforts.
+
+"Except, you know, the dreadful heat in the train," she added; and he remarked that she would not suffer from that particular hardship in the country she was going to.
+
+"I never," [MASK] declared with intensity, "was more nearly frozen than once, in April, in the train between Calais and Paris."
+
+She said she did not wonder, but remarked that, after all, one could always carry an extra rug, and that every form of travel had its hardships; to which he abruptly returned that he thought them all of no account compared with the blessedness of getting away.
+Q1309-0	Explicit	Lefferts	If society chose to open its doors to vulgar women the harm was not great, though the gain was doubtful; but once it got in the way of tolerating men of obscure origin and tainted wealth the end was total disintegration--and at no distant date.
+
+"If things go on at this pace," [MASK] thundered, looking like a young prophet dressed by Poole, and who had not yet been stoned, "we shall see our children fighting for invitations to swindlers' houses, and marrying Beaufort's bastards."
+
+"Oh, I say--draw it mild!
+Q1320-0	Anaphoric	she	As soon as the last carriage had driven away, he had come up to the library and shut himself in, with the hope that his wife, who still lingered below, would go straight to her room.  But there she stood, pale and drawn, yet radiating the factitious energy of one who has passed beyond fatigue.
+
+"May I come and talk it over?" [MASK] asked.
+
+"Of course, if you like.  But you must be awfully sleepy--"
+
+"No, I'm not sleepy.  I should like to sit with you a little."
+
+"Very well," he said, pushing her chair near the fire.
+Q1324-0	Explicit	Archer	But you must be awfully sleepy--"
+
+"No, I'm not sleepy.  I should like to sit with you a little."
+
+"Very well," he said, pushing her chair near the fire.
+
+She sat down and he resumed his seat; but neither spoke for a long time.  At length [MASK] began abruptly: "Since you're not tired, and want to talk, there's something I must tell you.  I tried to the other night--."
+
+She looked at him quickly.  "Yes, dear.  Something about yourself?"
+
+"About myself.  You say you're not tired: well, I am.  Horribly tired ..."
+
+In an instant she was all tender anxiety.  "Oh, I've seen it coming on, Newland!
+Q1331-0	Anaphoric	he	On a long trip, ever so far off--away from everything--"
+
+He paused, conscious that he had failed in his attempt to speak with the indifference of a man who longs for a change, and is yet too weary to welcome it.  Do what he would, the chord of eagerness vibrated. "Away from everything--" [MASK] repeated.
+
+"Ever so far?  Where, for instance?" she asked.
+
+"Oh, I don't know.  India--or Japan."
+
+She stood up, and as he sat with bent head, his chin propped on his hands, he felt her warmly and fragrantly hovering over him.
+Q1332-0	Anaphoric	she	On a long trip, ever so far off--away from everything--"
+
+He paused, conscious that he had failed in his attempt to speak with the indifference of a man who longs for a change, and is yet too weary to welcome it.  Do what he would, the chord of eagerness vibrated. "Away from everything--" he repeated.
+
+"Ever so far?  Where, for instance?" [MASK] asked.
+
+"Oh, I don't know.  India--or Japan."
+
+She stood up, and as he sat with bent head, his chin propped on his hands, he felt her warmly and fragrantly hovering over him.
+
+"As far as that?
+Q1334-0	Anaphoric	she	Where, for instance?" she asked.
+
+"Oh, I don't know.  India--or Japan."
+
+She stood up, and as he sat with bent head, his chin propped on his hands, he felt her warmly and fragrantly hovering over him.
+
+"As far as that?  But I'm afraid you can't, dear ..." [MASK] said in an unsteady voice.  "Not unless you'll take me with you."  And then, as he was silent, she went on, in tones so clear and evenly-pitched that each separate syllable tapped like a little hammer on his brain:  "That is, if the doctors will let me go ...
+Q1335-0	Anaphoric	she	But I'm afraid you can't, dear ..." she said in an unsteady voice.  "Not unless you'll take me with you."  And then, as he was silent, [MASK] went on, in tones so clear and evenly-pitched that each separate syllable tapped like a little hammer on his brain:  "That is, if the doctors will let me go ... but I'm afraid they won't.  For you see, Newland, I've been sure since this morning of something I've been so longing and hoping for--"
+
+He looked up at her with a sick stare, and she sank down, all dew and roses, and hid her face against his knee.
+
+"Oh, my dear," he said, holding her to him while his cold hand stroked her hair.

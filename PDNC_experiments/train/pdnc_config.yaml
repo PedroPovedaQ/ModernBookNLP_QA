@@ -1,0 +1,76 @@
+model:
+  model_id: answerdotai/ModernBERT-large #can also use allenai/longformer-base-4096
+  mean_pool: true
+  bert_start_train_layers: 'all'
+
+train: 
+  weight_decay: 0
+  lr: 1.e-4
+  num_warmup_steps: 1000
+  num_training_steps: 50000
+  clip_grad: 1
+  step_per_save: 500
+  loss_per_type: true
+
+graph_path: /data/booknlp_gutenberg/
+target_path: /models/pretrain_booknlp_graph_quote/shared_proj_lpt_meanpool_bs8_lr1e-4/
+# target_path: /models/pretrain_booknlp_graph_quote/run_small_BS/
+num_workers: 2
+batch_size: 16
+resume_from_checkpoint: 
+
+gnn_ckpt: /lustre/fsn1/projects/rech/lgi/ujg36yr/GNNBookLP_Pretrain/L4_shared_proj_lpt_meanpool_bs8_lr1e-4/model_iter12000.pt/model.safetensors
+
+is_baseline: true
+save_path: results/pdnc/baseline_N2000_S512/
+save_path: results/pdnc/baseline_N500_S256/
+
+is_baseline: true
+is_individual: true
+save_path: results/pdnc/individual_N2000_S512/
+
+
+is_baseline: true
+is_individual: true
+save_path: results/pdnc/individual_N1000_restricted/
+
+is_baseline: true
+is_individual: false
+save_path: results/pdnc/baseline_N1000_S256_restricted/
+
+is_baseline: true
+is_individual: false
+# save_path: results/pdnc/baseline_N2000_S512/
+save_path: results/pdnc/baseline_N500_S256/
+
+is_baseline: true
+save_path: results/pdnc/baseline_N2000_S512_ckpt/
+
+is_baseline: true
+is_individual: true
+save_path: results/pdnc/individual_N500/
+# name_key: NEW_components_N256.pkl
+
+
+is_baseline: true
+is_individual: true
+anaphora_pred: false
+
+# save_path: results/pdnc/baseline_N2000_S512_global_cemb/
+
+# name_key: NEW_components_N256.pkl
+
+
+# is_baseline: true
+# is_individual: true
+# save_path: results/pdnc/individual_N1000/
+# name_key: NEW_components.pkl
+
+# is_baseline: false
+# save_path: results/pdnc/from_scratch_gnn/
+
+# is_baseline: false
+# save_path: results/pdnc/pretrain_gnn/
+
+# is_baseline: false
+# save_path: results/pdnc/pretrain_gnn_GNN_MLP/

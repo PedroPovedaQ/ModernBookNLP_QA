@@ -1,0 +1,197 @@
+Q50-0	Explicit	Lucy	He has rooms he does not value, and he thinks you would value them. He no more thought of putting you under an obligation than he thought of being polite. It is so difficult--at least, I find it difficult--to understand people who speak the truth."
+
+[MASK] was pleased, and said: "I was hoping that he was nice; I do so always hope that people will be nice."
+
+"I think he is; nice and tiresome. I differ from him on almost every point of any importance, and so, I expect--I may say I hope--you will differ. But his is a type one disagrees with rather than deplores.
+Q55-1	Explicit	Miss Bartlett	He seems a nice creature, and I think he has brains. Of course, he has all his father's mannerisms, and it is quite possible that he, too, may be a Socialist."
+
+"Oh, you relieve me," said [MASK]. "So you think I ought to have accepted their offer? You feel I have been narrow-minded and suspicious?"
+
+"Not at all," he answered; "I never suggested that."
+
+"But ought I not to apologize, at all events, for my apparent rudeness?"
+
+He replied, with some irritation, that it would be quite unnecessary, and got up from his seat to go to the smoking-room.
+Q127-0	Explicit	Mr. Emerson	Fortunately an Italian lady, who ought to have been saying her prayers, came to the rescue. By some mysterious virtue, which mothers alone possess, she stiffened the little boy's back-bone and imparted strength to his knees. He stood. Still gibbering with agitation, he walked away.
+
+"You are a clever woman," said [MASK]. "You have done more than all the relics in the world. I am not of your creed, but I do believe in those who make their fellow-creatures happy. There is no scheme of the universe--"
+
+He paused for a phrase.
+Q138-0	Anaphoric	the old man	I hope you do not suppose that I came to join on to you. I really came to help with the child, and to thank you for so kindly giving us your rooms last night. I hope that you have not been put to any great inconvenience."
+
+"My dear," said [MASK] gently, "I think that you are repeating what you have heard older people say. You are pretending to be touchy; but you are not really. Stop being so tiresome, and tell me instead what part of the church you want to see.
+Q143-0	Explicit	George	She was sure that she ought not to be with these men; but they had cast a spell over her. They were so serious and so strange that she could not remember how to behave.
+
+"Now, did this happen, or didn't it? Yes or no?"
+
+[MASK] replied:
+
+"It happened like this, if it happened at all. I would rather go up to heaven by myself than be pushed by cherubs; and if I got there I should like my friends to lean out of it, just as they do here."
+
+"You will never go up," said his father. "You and I, dear boy, will lie at peace in the earth that bore us, and our names will disappear as surely as our work survives."
+
+"Some of the people can only see the empty grave, not the saint, whoever he is, going up.
+Q155-0	Explicit	Lucy	He will try to be kind."
+
+"I hope we all try," said she, smiling nervously.
+
+"Because we think it improves our characters. But he is kind to people because he loves them; and they find him out, and are offended, or frightened."
+
+"How silly of them!" said [MASK], though in her heart she sympathized; "I think that a kind action done tactfully--"
+
+"Tact!"
+
+He threw up his head in disdain. Apparently she had given the wrong answer. She watched the singular creature pace up and down the chapel.
+Q178-0	Anaphoric	she	Make him realize that by the side of the everlasting Why there is a Yes--a transitory Yes if you like, but a Yes."
+
+Suddenly she laughed; surely one ought to laugh. A young man melancholy because the universe wouldn't fit, because life was a tangle or a wind, or a Yes, or something!
+
+"I'm very sorry," [MASK] cried. "You'll think me unfeeling, but--but--"  Then she became matronly. "Oh, but your son wants employment. Has he no particular hobby? Why, I myself have worries, but I can generally forget them at the piano; and collecting stamps did no end of good for my brother.
+Q196-0	Explicit	Lucy	Once, you know, I said that I liked my own playing better than any one's. She has never got over it. Of course, I didn't mean that I played well; I only meant--"
+
+"Of course," said he, wondering why she bothered to explain.
+
+"Music--" said [MASK], as if attempting some generality. She could not complete it, and looked out absently upon Italy in the wet. The whole life of the South was disorganized, and the most graceful nation in Europe had turned into formless lumps of clothes.
+
+The street and the river were dirty yellow, the bridge was dirty grey, and the hills were dirty purple.
+Q247-0	Anaphoric	she	The cries from the fountain--they had never ceased--rang emptily. The whole world seemed pale and void of its original meaning.
+
+"How very kind you have been! I might have hurt myself falling. But now I am well. I can go alone, thank you."
+
+His hand was still extended.
+
+"Oh, my photographs!" [MASK] exclaimed suddenly.
+
+"What photographs?"
+
+"I bought some photographs at Alinari's. I must have dropped them out there in the square." She looked at him cautiously. "Would you add to your kindness by fetching them?"
+
+He added to his kindness.
+Q258-0	Anaphoric	He	Yes, I am, thank you so very much."
+
+"No, you aren't. You'd go openly if you were."
+
+"But I had rather--"
+
+"Then I don't fetch your photographs."
+
+"I had rather be alone."
+
+[MASK] said imperiously: "The man is dead--the man is probably dead; sit down till you are rested." She was bewildered, and obeyed him. "And don't move till I come back."
+
+In the distance she saw creatures with black hoods, such as appear in dreams. The palace tower had lost the reflection of the declining day, and joined itself to earth.
+Q295-1	Explicit	Miss Lavish	I'm sorry--if you could manage without it, I think I would rather not."
+
+The elder ladies exchanged glances, not of disapproval; it is suitable that a girl should feel deeply.
+
+"It is I who am sorry," said [MASK] "literary hacks are shameless creatures. I believe there's no secret of the human heart into which we wouldn't pry."
+
+She marched cheerfully to the fountain and back, and did a few calculations in realism. Then she said that she had been in the Piazza since eight o'clock collecting material. A good deal of it was unsuitable, but of course one always had to adapt.
+Q300-0	Explicit	Miss Lavish	I do hope she's nice."
+
+That desideratum would not be omitted.
+
+"And what is the plot?"
+
+Love, murder, abduction, revenge, was the plot. But it all came while the fountain plashed to the satyrs in the morning sun.
+
+"I hope you will excuse me for boring on like this," [MASK] concluded. "It is so tempting to talk to really sympathetic people. Of course, this is the barest outline. There will be a deal of local colouring, descriptions of Florence and the neighbourhood, and I shall also introduce some humorous characters.
+Q504-0	Explicit	Lucy	When I was here for your sake? If I have vexed you it is equally true that I have neglected you. Your mother will see this as clearly as I do, when you tell her."
+
+[MASK], from a cowardly wish to improve the situation, said:
+
+"Why need mother hear of it?"
+
+"But you tell her everything?"
+
+"I suppose I do generally."
+
+"I dare not break your confidence. There is something sacred in it. Unless you feel that it is a thing you could not tell her."
+
+The girl would not be degraded to this.
+Q592-0	Explicit	Mr. Beebe	My attitude--quite an indefensible one--is that so long as I am no trouble to any one I have a right to do as I like. I know I ought to be getting money out of people, or devoting myself to things I don't care a straw about, but somehow, I've not been able to begin."
+
+"You are very fortunate," said [MASK]. "It is a wonderful opportunity, the possession of leisure."
+
+His voice was rather parochial, but he did not quite see his way to answering naturally. He felt, as all who have regular occupation must feel, that others should have it also.
+Q1276-0	Anaphoric	he	He looked at her, instead of through her, for the first time since they were engaged. From a Leonardo she had become a living woman, with mysteries and forces of her own, with qualities that even eluded art. His brain recovered from the shock, and, in a burst of genuine devotion, [MASK] cried: "But I love you, and I did think you loved me!"
+
+"I did not," she said. "I thought I did at first. I am sorry, and ought to have refused you this last time, too."
+
+He began to walk up and down the room, and she grew more and more vexed at his dignified behaviour.
+Q1277-0	Anaphoric	she	From a Leonardo she had become a living woman, with mysteries and forces of her own, with qualities that even eluded art. His brain recovered from the shock, and, in a burst of genuine devotion, he cried: "But I love you, and I did think you loved me!"
+
+"I did not," [MASK] said. "I thought I did at first. I am sorry, and ought to have refused you this last time, too."
+
+He began to walk up and down the room, and she grew more and more vexed at his dignified behaviour.
+Q1281-0	Anaphoric	Her	I dare say you are right not to. But it would hurt a little less if I knew why."
+
+"Because"--a phrase came to her, and she accepted it--"you're the sort who can't know any one intimately."
+
+A horrified look came into his eyes.
+
+"I don't mean exactly that. But you will question me, though I beg you not to, and I must say something. It is that, more or less. When we were only acquaintances, you let me be myself, but now you're always protecting me." [MASK] voice swelled. "I won't be protected. I will choose for myself what is ladylike and right. To shield me is an insult. Can't I be trusted to face the truth but I must get it second-hand through you?
+Q1282-0	Explicit	Cecil	I won't be stifled, not by the most glorious music, for people are more glorious, and you hide them from me. That's why I break off my engagement. You were all right as long as you kept to things, but when you came to people--" She stopped.
+
+There was a pause. Then [MASK] said with great emotion:
+
+"It is true."
+
+"True on the whole," she corrected, full of some vague shame.
+
+"True, every word. It is a revelation. It is--I."
+
+"Anyhow, those are my reasons for not being your wife."
+
+He repeated: "'The sort that can know no one intimately.'
+Q1293-0	Anaphoric	He	If a girl breaks off her engagement, everyone says: 'Oh, she had some one else in her mind; she hopes to get someone else.' It's disgusting, brutal! As if a girl can't break it off for the sake of freedom."
+
+[MASK] answered reverently: "I may have said that in the past. I shall never say it again. You have taught me better."
+
+She began to redden, and pretended to examine the windows again. "Of course, there is no question of 'someone else' in this, no 'jilting' or any such nauseous stupidity. I beg your pardon most humbly if my words suggested that there was.
+Q1320-0	Explicit	Mr. Beebe	If you'd gone on about her, as you did about them, he might have broken down."
+
+"But when--"
+
+"Late last night. I must go."
+
+"Perhaps they won't want me down there."
+
+"No--go on. Good-bye."
+
+"Thank goodness!" exclaimed [MASK] to himself, and struck the saddle of his bicycle approvingly, "It was the one foolish thing she ever did. Oh, what a glorious riddance!" And, after a little thought, he negotiated the slope into Windy Corner, light of heart.
+Q1459-0	Explicit	Mrs. Honeychurch	I've seen the world so little--I felt so out of things in Italy. I have seen so little of life; one ought to come up to London more--not a cheap ticket like to-day, but to stop. I might even share a flat for a little with some other girl."
+
+"And mess with typewriters and latch-keys," exploded [MASK]. "And agitate and scream, and be carried off kicking by the police. And call it a Mission--when no one wants you! And call it Duty--when it means that you can't stand your own home! And call it Work--when thousands of men are starving with the competition as it is!
+Q1558-0	Explicit	Lucy	But you do," he went on, not waiting for contradiction. "You love the boy body and soul, plainly, directly, as he loves you, and no other word expresses it. You won't marry the other man for his sake."
+
+"How dare you!" gasped [MASK], with the roaring of waters in her ears. "Oh, how like a man!--I mean, to suppose that a woman is always thinking about a man."
+
+"But you are."
+
+She summoned physical disgust.
+
+"You're shocked, but I mean to shock you.
+Q1597-0	Anaphoric	he	Same stuff as parsons are made of."
+
+"Nonsense!"
+
+"Quite right. It is nonsense."
+
+"Now you get up off the cold floor, or you'll be starting rheumatism next, and you stop laughing and being so silly."
+
+"Why shouldn't I laugh?" [MASK] asked, pinning her with his elbows, and advancing his face to hers. "What's there to cry at? Kiss me here." He indicated the spot where a kiss would be welcome.
+
+He was a boy after all. When it came to the point, it was she who remembered the past, she into whose soul the iron had entered, she who knew whose room this had been last year.
+Q1597-2	Anaphoric	he	He was a boy after all. When it came to the point, it was she who remembered the past, she into whose soul the iron had entered, she who knew whose room this had been last year. It endeared him to her strangely that he should be sometimes wrong.
+
+"Any letters?" [MASK] asked.
+
+"Just a line from Freddy."
+
+"Now kiss me here; then here."
+
+Then, threatened again with rheumatism, he strolled to the window, opened it (as the English will), and leant out. There was the parapet, there the river, there to the left the beginnings of the hills.
+Q1611-0	Anaphoric	he	He will never forgive us--I mean, he will never be interested in us again. I wish that he did not influence them so much at Windy Corner. I wish he hadn't--But if we act the truth, the people who really love us are sure to come back to us in the long run."
+
+"Perhaps." Then [MASK] said more gently: "Well, I acted the truth--the only thing I did do--and you came back to me. So possibly you know." He turned back into the room. "Nonsense with that sock." He carried her to the window, so that she, too, saw all the view.
