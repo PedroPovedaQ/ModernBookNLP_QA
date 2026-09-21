@@ -22,7 +22,7 @@ The persistent named volume stores SQLite, the model cache and Hugging Face asse
 
 ## Always-on Linux host and HTTPS
 
-Provisional host sizing: 4 CPU cores, 16 GiB RAM and at least 30 GiB free SSD. The included container limit is 8 GiB with four CPU cores. The original Mac excerpt pilot used 3.26 GiB peak RSS; that is not a whole-book memory bound. Use a single instance. SQLite must stay on a local filesystem, not an NFS share or independently replicated disks.
+Pilot host sizing: 4 CPU cores, 8 GiB RAM and at least 30 GiB free SSD. The [local Docker verification](verification/2026-09-21-docker-local.md) passed real inference and graceful restart on ARM64, with 4.81 GiB peak cgroup memory including file cache. A 4 GiB host is not validated; larger documents may need more RAM. The included container limit is 8 GiB with four CPU cores. The original Mac excerpt pilot used 3.26 GiB peak RSS; that is not a whole-book memory bound. Use a single instance. SQLite must stay on a local filesystem, not an NFS share or independently replicated disks.
 
 Install Docker Engine with the Compose plugin using the host OS's official instructions. Clone this fork at the reviewed commit, generate credentials, then set `BOOKNLP_DOMAIN` in `.env` to a domain you control with DNS pointing at this host. Allow inbound TCP 80/443 and restricted administrative SSH; the API port remains loopback-only.
 
