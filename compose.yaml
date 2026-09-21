@@ -1,0 +1,20 @@
+services:
+  api:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:8787:8000"
+    environment:
+      BOOKNLP_API_KEY_HASHES: ${BOOKNLP_API_KEY_HASHES:?Set hashed client credentials in .env}
+    volumes:
+      - booknlp-data:/data
+    mem_limit: 8g
+    cpus: 4
+    stop_grace_period: 40s
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+volumes:
+  booknlp-data:

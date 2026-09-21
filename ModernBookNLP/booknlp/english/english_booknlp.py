@@ -349,7 +349,7 @@ class EnglishBookNLP:
             start_time = time.time()
             originalTime=start_time
 
-            with open(filename) as file:
+            with open(filename, encoding="utf-8", newline="") as file:
                 data=file.read()
 
                 if len(data) == 0:
@@ -401,13 +401,6 @@ class EnglishBookNLP:
                 if self.doQuoteAttrib:
 
                     entities=entity_vals["entities"]
-                    with open('examples/quotes.pkl','wb') as f : 
-                        pickle.dump(quotes, f)
-                    with open('examples/entities.pkl','wb') as f : 
-                        pickle.dump(entities, f)
-                    with open('examples/tokens.pkl' ,'wb') as f : 
-                        pickle.dump(tokens, f)
-                        
                     attributed_quotations=self.quote_attrib.tag(quotes, entities, tokens)
 
                     print("--- attribution: %.3f seconds ---" % (time.time() - start_time))

@@ -1,0 +1,16 @@
+services:
+  caddy:
+    image: caddy:2.11.2-alpine
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    environment:
+      BOOKNLP_DOMAIN: ${BOOKNLP_DOMAIN:?Set the domain pointing to this server}
+    volumes:
+      - ./deploy/Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy-data:/data
+      - caddy-config:/config
+volumes:
+  caddy-data:
+  caddy-config:
