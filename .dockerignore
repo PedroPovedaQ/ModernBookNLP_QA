@@ -1,0 +1,10 @@
+.git
+**/__pycache__
+**/*.pyc
+**/.env*
+**/data
+!ModernBookNLP/booknlp/english/data
+PDNC_experiments
+service/tests
+.env
+docs

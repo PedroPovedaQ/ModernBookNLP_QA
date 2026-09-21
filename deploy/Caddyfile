@@ -1,0 +1,16 @@
+{
+    servers {
+        timeouts {
+            read_header 10s
+            read_body 15s
+            idle 2m
+        }
+    }
+}
+
+{$BOOKNLP_DOMAIN} {
+    request_body {
+        max_size 601KB
+    }
+    reverse_proxy api:8000
+}

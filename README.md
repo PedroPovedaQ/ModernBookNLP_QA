@@ -23,3 +23,7 @@ python -m spacy download en_core_web_sm
 ```
 
 Then, you can browse subfolders to reproduce our experiments.
+
+# Self-hosted API (this fork)
+
+Run the Joint model as an authenticated background service with a persistent job queue, cached results and exact source offsets. See [service deployment and API documentation](docs/service.md). The service adds CPU Docker/Compose deployment and an optional HTTPS reverse proxy. It does not replace the upstream experiment instructions above.
