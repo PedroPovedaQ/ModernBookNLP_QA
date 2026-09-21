@@ -16,7 +16,7 @@ class Settings:
     max_client_pending: int = 5
     max_attempts: int = 2
     timeout_seconds: int = 600
-    startup_seconds: int = 900
+    startup_seconds: int = 1800
     retention_seconds: int = 86400
     threads: int = 4
     batch_size: int = 2

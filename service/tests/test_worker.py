@@ -105,6 +105,20 @@ class WorkerTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             normalize_output(text.replace("Alice", "Bobby"), self.path)
 
+    def test_polling_does_not_wait_for_a_queue_writer(self):
+        from concurrent.futures import ThreadPoolExecutor
+
+        job = self.store.submit("alice", "hello")["id"]
+        with ThreadPoolExecutor(max_workers=1) as pool:
+            with self.store.connect() as writer:
+                writer.execute("BEGIN IMMEDIATE")
+                future = pool.submit(self.store.get, job, "alice")
+                try:
+                    result = future.result(timeout=1)
+                finally:
+                    writer.rollback()
+            self.assertEqual(result["status"], "queued")
+
     def test_concurrent_deduplication(self):
         from concurrent.futures import ThreadPoolExecutor
 

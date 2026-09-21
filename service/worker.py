@@ -33,11 +33,15 @@ def model_child(connection, settings, parent_pid):
             time.sleep(1)
         os._exit(1)
 
+    logging.basicConfig(level=logging.INFO)
     threading.Thread(target=watch_parent, daemon=True).start()
     try:
         from service.model import Analyzer
 
+        started = time.monotonic()
+        log.info("Initializing model and persistent caches")
         analyzer = Analyzer(settings)
+        log.info("Model ready after %.1f seconds", time.monotonic() - started)
         connection.send(("ready", None))
         while True:
             text = connection.recv()
@@ -111,11 +115,12 @@ def run(settings: Settings):
                         kind, _ = model.wait(settings.startup_seconds, store, stopped)
                         if kind != "ready":
                             raise RuntimeError("Invalid model startup response")
-                    except (TimeoutError, RuntimeError):
+                    except (TimeoutError, RuntimeError) as exc:
                         model.close()
                         model = None
                         log.error(
-                            "Model unavailable; retrying initialization in 30 seconds"
+                            "Model unavailable (%s); retrying initialization in 30 seconds",
+                            type(exc).__name__,
                         )
                         stopped.wait(30)
                         continue

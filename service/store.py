@@ -89,9 +89,10 @@ class Store:
 
     def get(self, job_id: str, owner: str):
         with self.connect() as db:
-            self._cleanup(db, time.time())
+            # Polling must remain a WAL reader while the worker commits queue updates.
             row = db.execute(
-                "SELECT * FROM jobs WHERE id=? AND owner=?", (job_id, owner)
+                "SELECT * FROM jobs WHERE id=? AND owner=? AND (status IN ('queued','running') OR updated>=?)",
+                (job_id, owner, time.time() - self.settings.retention_seconds),
             ).fetchone()
             return self.public(row) if row else None
 
