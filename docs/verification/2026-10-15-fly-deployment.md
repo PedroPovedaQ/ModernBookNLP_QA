@@ -90,12 +90,13 @@ completed successfully.
 
 ## Cost and pilot limits
 
-At the current Fly pricing basis, the always-on shape is approximately **$54.58 per
-month before egress and snapshot charges**: shared-cpu-4x base allocation `$8.08`,
+At the current Fly pricing basis, the always-on shape is approximately **$55.28 per
+month before egress and snapshot charges**: shared-cpu-4x base allocation `$8.78`,
 seven additional GiB of RAM at `$6/GiB` (`$42.00`), and a 30 GB volume at
 `$0.15/GB` (`$4.50`). This is reported as the approved rough **$55/month** pilot
-estimate on a 30-day/730-hour basis. Five retained snapshots are configured; storage
-or snapshot usage beyond the included allowance can change the bill.
+estimate on Fly's published 730-hour monthly basis. Five retained snapshots are
+configured; storage or snapshot usage beyond the included allowance can change the
+bill.
 
 The service still has its existing 50,000-character request cap and analysis-scoped
 IDs. Full-book memory pressure, sustained throughput/concurrency, abrupt host-loss
