@@ -60,6 +60,7 @@ from torch.utils.data import DataLoader
 from booknlp.english.inp_to_graph import build_inference_graph, WordAligner, to_direct_input
 import torch.nn as nn 
 from transformers import ModernBertModel
+from booknlp.english.base_models import load_base
 import torch_geometric.nn as conv_nn
 import torch.nn.functional as F 
 import torch 
@@ -111,7 +112,8 @@ class ModernQA(nn.Module) :
         self.config = config
 
         
-        self.bert = ModernBertModel.from_pretrained(
+        self.bert = load_base(
+            ModernBertModel,
             config['model_id'],
             attn_implementation=ATTN_IMP,
             dtype=DTYPE

@@ -16,9 +16,9 @@ curl --fail http://127.0.0.1:8787/readyz
 
 Protect `.env` and the client-key file. Only the hash belongs on the server; put the raw client key in the calling backend's secret store. Neither belongs in an iOS app, browser bundle, URL, source control or chat. The generator refuses to overwrite existing credential files. The API fails startup when no key mapping is configured.
 
-The first start downloads model files and base-model assets, which can take several minutes. `/healthz` indicates the HTTP process is alive. `/readyz` returns 503 until the worker finishes loading, or when its heartbeat is stale. Submissions can queue during loading. Monitor both probes: an HTTP 200 health check does not prove inference is ready.
+Model weights, configs and tokenizers are baked into the image at build time (checksum-verified; the base encoder weights are skipped because every component overwrites them), so boot never downloads and the model loads in about a minute, bounded by disk read speed. `/healthz` indicates the HTTP process is alive. `/readyz` returns 503 until the worker finishes loading, or when its heartbeat is stale. Submissions can queue during loading. Monitor both probes: an HTTP 200 health check does not prove inference is ready.
 
-The persistent named volume stores SQLite, the model cache and Hugging Face assets. `docker compose down` retains it; **do not use `down -v`** unless intentionally erasing queued jobs, results and model downloads. The API binds to loopback port 8787 by default. Docker's `unless-stopped` policy restarts after process failure and daemon restart; the host must remain awake and its Docker daemon must start on boot.
+The persistent named volume stores SQLite jobs and results. `docker compose down` retains it; **do not use `down -v`** unless intentionally erasing queued jobs and results. The API binds to loopback port 8787 by default. Docker's `unless-stopped` policy restarts after process failure and daemon restart; the host must remain awake and its Docker daemon must start on boot.
 
 ## Always-on Linux host and HTTPS
 
@@ -30,7 +30,7 @@ Install Docker Engine with the Compose plugin using the host OS's official instr
 docker compose -f compose.yaml -f deploy/https.compose.yaml up -d --build
 ```
 
-Caddy provides HTTPS termination and forwards to the private API container. Use the provider's persistent disk/volume; disable platform sleep/autostop and keep one instance running. A hosted HTTPS endpoint is not verified until its external `/readyz` and an authenticated real job pass. Do not use a temporary development tunnel as the availability strategy.
+Caddy provides HTTPS termination and forwards to the private API container. Use the provider's persistent disk/volume; keep one instance running (the Fly configuration instead scales to zero; see below). A hosted HTTPS endpoint is not verified until its external `/readyz` and an authenticated real job pass. Do not use a temporary development tunnel as the availability strategy.
 
 ## HTTP contract
 
@@ -43,7 +43,7 @@ All `/v1/` endpoints require `Authorization: Bearer <key>`. `BOOKNLP_API_KEY_HAS
 | DELETE `/v1/jobs/{id}` | Removes queued or terminal job → 204; running job → 409. |
 | GET `/v1/openapi.json` | Authenticated machine-readable route schema. |
 | GET `/healthz` | Public liveness. |
-| GET `/readyz` | Public worker readiness. |
+| GET `/readyz` | Public worker readiness; on Fly also the pre-wake hint (see below). |
 
 A job contains `id`, `status`, `content_hash`, `model_version`, `attempts`, timestamps, `error` and `result`. Status is `queued`, `running`, `completed` or `failed`. There is no estimated percentage: the model does not expose reliable progress. Poll every 3–10 seconds with backoff on transport errors. Submission has content-based deduplication, so retrying a POST after a network failure does not duplicate inference. Cache identity includes the pipeline version, thread count and attribution batch size. Pending jobs from an incompatible configuration fail explicitly with `model_version_changed`; resubmit them after the upgrade. Failed jobs are also reused until deleted or expired; after diagnosing the cause, delete a failed job and resubmit to explicitly retry.
 
@@ -57,6 +57,34 @@ Run the real HTTP smoke test without putting the key in command arguments:
 python3 -m service.smoke --url http://127.0.0.1:8787 \
   --key-file ../booknlp-secrets/client-key.txt --output ../smoke-result.json
 ```
+
+## Fly scale-to-zero and pre-wake
+
+The Fly app (`fly.toml`) runs one `performance-4x`/8 GB Machine with
+`auto_stop_machines = "suspend"`, `auto_start_machines = true` and
+`min_machines_running = 0`. After ~4–5 minutes without proxied requests the Fly proxy
+suspends it (memory snapshot, model stays loaded); health checks do not keep it awake.
+Any request to `https://speedreadify-booknlp.fly.dev` resumes it: `/readyz` returned
+200 in 0.8–2.3 s after suspend. Fly drops snapshots on deploys, host migrations and
+maintenance, so the next wake is a cold boot instead: the model loads at boot (weights
+baked into the image, no downloads), `/readyz` returns 503 until ready, ~55–60 s.
+Submissions made during a cold boot are accepted and queued until the model is ready.
+
+Pre-wake contract for the SpeedReadify backend:
+
+- When a user opens a book's Voice sheet or Ensemble, fire `GET /readyz` (no auth, no
+  body, cheap, never runs a job). Do not wait on it; treat 200 and 503 as success. A
+  timeout or 502 is retryable once.
+- Before submitting, optionally poll `GET /readyz` every 1–2 s (up to ~90 s) for 200,
+  or just `POST /v1/jobs`: it queues while the model loads.
+- Keep polling a submitted job (every 3–10 s, as above). The proxy autostops on idle
+  traffic, so a caller that stops polling for minutes can let the Machine suspend; a
+  suspended job resumes on the next request.
+- Do not pre-wake on a timer: each wake keeps the Machine billed for ~5 minutes.
+
+Shared vCPUs are unsuitable here: a scaled-to-zero `shared` Machine starts with a 5 s
+CPU burst balance and throttles to 6.25% under a multi-minute job (a 44 s job took
+473 s). Performance vCPUs have a 100% baseline and double the disk bandwidth.
 
 ## Bounds and recovery
 

@@ -2,14 +2,18 @@
 
 import csv
 import hashlib
+import logging
 import os
 import sys
 import tempfile
+import time
 import urllib.request
 from collections import Counter, defaultdict
 from pathlib import Path
 
 from service.config import MODEL_VERSION, Settings
+
+log = logging.getLogger(__name__)
 
 WEIGHTS = {
     "entities_google_bert_uncased_L-6_H-768_A-12-v1.0.model": "c67654ac10b3b49371544ccaf8ed76d224f0d274d23f7f7ea09e74f173ddbe06",
@@ -100,7 +104,12 @@ def normalize_output(text: str, directory: Path, name: str = "document") -> dict
     }
 
 
-def verified_weights(directory: Path):
+def verified_weights(directory: Path, checksums: bool = True):
+    """Download missing weights and verify them.
+
+    Baked images verify SHA-256 at build time, so boot may skip re-hashing ~2.3 GB
+    (``checksums=False``) and only confirm presence; downloads are always hashed.
+    """
     directory.mkdir(parents=True, exist_ok=True)
     for name, expected in WEIGHTS.items():
         path = directory / name
@@ -125,6 +134,8 @@ def verified_weights(directory: Path):
                 temporary.replace(path)
             finally:
                 temporary.unlink(missing_ok=True)
+        elif not checksums:
+            continue
         with path.open("rb") as stream:
             if hashlib.file_digest(stream, "sha256").hexdigest() != expected:
                 raise ValueError("Model cache checksum mismatch")
@@ -133,13 +144,23 @@ def verified_weights(directory: Path):
 class Analyzer:
     def __init__(self, settings: Settings):
         self.settings = settings
-        import torch
-
-        torch.set_num_threads(settings.threads)
+        started = time.monotonic()
         path = Path(
             os.environ.get("BOOKNLP_MODEL_DIR", str(Path.home() / "booknlp_models"))
         )
-        verified_weights(path)
+
+        def phase(name):
+            nonlocal started
+            now = time.monotonic()
+            log.info("Startup phase %s took %.1f seconds", name, now - started)
+            started = now
+
+        import torch
+
+        torch.set_num_threads(settings.threads)
+        phase("import_torch")
+        verified_weights(path, checksums=os.environ.get("BOOKNLP_WEIGHTS_BAKED") != "1")
+        phase("weights")
         sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "ModernBookNLP"))
         from booknlp.english import modern_qa
 
@@ -155,6 +176,7 @@ class Analyzer:
             }
         )
         self.model.quote_attrib.batch_size = settings.batch_size
+        phase("model_init")
 
     def analyze(self, text: str) -> dict:
         # A job owns all outputs. Upstream debug pickle writes are removed in this fork.
