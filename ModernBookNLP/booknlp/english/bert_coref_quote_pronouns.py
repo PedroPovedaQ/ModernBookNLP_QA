@@ -5,6 +5,7 @@ import sys
 import argparse
 
 from transformers import BertModel
+from booknlp.english.base_models import load_base
 from transformers import BertTokenizer
 
 import torch
@@ -54,7 +55,7 @@ class BERTCorefTagger(nn.Module):
 		self.pronominalCorefOnly=pronominalCorefOnly
 
 		self.tokenizer = BertTokenizer.from_pretrained(modelName, do_lower_case=False, do_basic_tokenize=False)
-		self.bert = BertModel.from_pretrained(modelName)
+		self.bert = load_base(BertModel, modelName)
 
 		self.tokenizer.add_tokens(["[CAP]"], special_tokens=True)
 		self.bert.resize_token_embeddings(len(self.tokenizer))

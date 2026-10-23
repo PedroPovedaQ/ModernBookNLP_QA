@@ -36,6 +36,17 @@ class WorkerTests(unittest.TestCase):
             with self.assertRaisesRegex(ValueError, "checksum mismatch"):
                 verified_weights(self.path)
 
+    def test_baked_weights_skip_rehash_but_require_presence(self):
+        from unittest.mock import patch
+
+        from service.model import verified_weights
+
+        (self.path / "model.bin").write_bytes(b"verified at build time")
+        with patch("service.model.WEIGHTS", {"model.bin": "0" * 64}):
+            verified_weights(self.path, checksums=False)
+            with self.assertRaisesRegex(ValueError, "checksum mismatch"):
+                verified_weights(self.path)
+
     def test_exclusive_lock(self):
         with worker_lock(self.path / "worker.lock"):
             with self.assertRaises(BlockingIOError):

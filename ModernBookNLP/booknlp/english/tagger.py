@@ -2,6 +2,7 @@ import sys
 import re
 import math
 from transformers import BertTokenizer, BertModel 
+from booknlp.english.base_models import load_base
 
 import torch.nn as nn
 import torch.nn.functional as F
@@ -56,7 +57,7 @@ class Tagger(nn.Module):
 		self.num_labels_flat=len(tagset_flat)
 
 		self.tokenizer = BertTokenizer.from_pretrained(modelName, do_lower_case=False, do_basic_tokenize=False)
-		self.bert = BertModel.from_pretrained(modelName)
+		self.bert = load_base(BertModel, modelName)
 
 		self.tokenizer.add_tokens(["[CAP]"], special_tokens=True)
 		self.bert.resize_token_embeddings(len(self.tokenizer))

@@ -10,8 +10,16 @@ kill_timeout = 40
 [http_service]
   internal_port = 8000
   force_https = true
-  auto_stop_machines = "off"
-  auto_start_machines = false
+  # Scale to zero: the proxy suspends the idle Machine (memory snapshot, model stays
+  # loaded) and any request resumes it in ~1-2 s. Snapshots are dropped on deploys and
+  # host maintenance, so the next wake is a cold boot with weights baked in the image.
+  auto_stop_machines = "suspend"
+  auto_start_machines = true
+  min_machines_running = 0
+
+  [http_service.concurrency]
+    type = "requests"
+    soft_limit = 20
 
   [[http_service.checks]]
     grace_period = "30s"
@@ -20,16 +28,18 @@ kill_timeout = 40
     path = "/healthz"
     timeout = "5s"
 
+# Jobs/SQLite only; model weights are baked into the image.
 [[mounts]]
-  source = "booknlp_data"
+  source = "booknlp_jobs"
   destination = "/data"
-  initial_size = "30GB"
+  initial_size = "1GB"
   snapshot_retention = 5
 
+# Dedicated vCPUs: a scaled-to-zero shared vCPU starts with a 5 s burst balance and
+# throttles to 6.25% under a multi-minute job (measured 10x slowdown). Performance
+# vCPUs have a 100% baseline and 2x the disk bandwidth for cold boots.
 [[vm]]
-  size = "shared-cpu-4x"
-  cpus = 4
-  cpu_kind = "shared"
+  size = "performance-4x"
   memory = "8GB"
 
 [[restart]]
